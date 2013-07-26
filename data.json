@@ -389,6 +389,15 @@
                 "referer": ""
             }
         },
+        
+         "VietfaceTV": {
+            "title": "VietfaceTV",
+            "logo": "vietfacetv.png",
+            "desc": "Vietface TV",
+            "src": {
+                "id":"VietfaceTV",
+                "playpath": "vface_1",
+                "referer": ""
 
      "trt1": {
             "title": "TRT1",
@@ -445,7 +454,8 @@
             {"type":"chn","id":"sctv15"},
             {"type":"chn","id":"sctv16"},
             {"type":"chn","id":"sctv17"},
-            {"type":"chn","id":"sctv18"}
+            {"type":"chn","id":"VietfaceTV"}
+            
             ]
         },
         "vov": {
