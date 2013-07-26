@@ -1,14 +1,15 @@
 ﻿{
     "timestamp":"1370385663",
     "sources": {
-        "VietfaceTV": {
+
+       "VietfaceTV": {
             "url": "rtmp://206.217.221.127/vietface/",
             "swfurl": "http://thvl.vn/vplayer.swf",
             "pageurl": "http://nguoiviet.tv/VietFaceTV",
             "token": "",
             "app": ""
         },
-
+        
         "vtc": {
             "url": "rtmp://111.91.233.197/live",
             "swfurl": "http://vtc.com.vn/player_6_10_2011.swf",
@@ -33,6 +34,16 @@
     },
     "channels": {
 
+         "VietfaceTV": {
+            "title": "VietfaceTV",
+            "logo": "vietfacetv.png",
+            "desc": "Vietface TV",
+            "src": {
+                "id":"VietfaceTV",
+                "playpath": "vface_1",
+                "referer": "VietfaceTV/15"
+            }
+        },
 
         "vtv1": {
             "title": "VTV1",
@@ -390,17 +401,6 @@
             }
         }
 
-
-        "VietfaceTV": {
-            "title": "VietfaceTV",
-            "logo": "vietfacetv.png",
-            "desc": "Vietface TV",
-            "src": {
-                "id":"VietfaceTV",
-                "playpath": "vface_1",
-                "referer": ""
-            }
-        }
     },
     "directories": {
         "root": {
