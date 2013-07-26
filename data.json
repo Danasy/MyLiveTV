@@ -408,6 +408,7 @@
             "logo":  "",
             "desc": "root menu",
             "content": [
+            {"type":"chn","id":"VietfaceTV"},
             {"type":"chn","id":"vtv1"},
             {"type":"chn","id":"vtv2"},
             {"type":"chn","id":"vtv3"},
