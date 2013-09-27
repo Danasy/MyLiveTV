@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.viettv24"
-       name="*Viet TV24"
+<addon id="plugin.video.mylivetv"
+       name="*MyLiveTV"
        version="1.1.0"
-       provider-name="divingmule">
+       provider-name="Silverfox">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
 	<import addon="script.module.beautifulsoup" version="3.0.8"/>
@@ -15,12 +15,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>livestreams</summary>
-    <description>It's up to you ;-) As an alternative to .strm files this add-on lets you add streams by adding items to an xml file. Thus giving you a nice list with thumbnails, fanart, and media info if you like.</description>
+    <description>It's up to you ;-) As an alternative to .strm files this add-on lets you add streams by adding items to an xml file. Thus giving you a 
+
+nice list with thumbnails, fanart, and media info if you like.</description>
     <platform>all</platform>
   </extension>
   <extension point="xbmc.addon.repository" name="adultchannel Addons">
-    <info compressed="false">http://www.echipstore.net/xbmcaddons/addons.xml</info>
-    <checksum>http://www.echipstore.net/xbmcaddons/addons.xml.md5</checksum>
-    <datadir zip="true">http://www.echipstore.net/xbmcaddons/</datadir>
+    <info compressed="false">https://github.com/Danasy/MyLiveTV/blob/MyLiveTV/addon.xml</info>
+    <checksum>https://github.com/Danasy/MyLiveTV/blob/MyLiveTV/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/Danasy/MyLiveTV/blob/MyLiveTV/</datadir>
   </extension>
 </addon>
