@@ -1,0 +1,10 @@
+<settings>
+    <setting id="choose_source" value="0" />
+    <setting id="community_list" value="false" />
+    <setting id="mirror_link" value="false" />
+    <setting id="mirror_link_low" value="false" />
+    <setting id="new_file_source" value="" />
+    <setting id="new_url_source" value="" />
+    <setting id="save_location" value="" />
+    <setting id="use_thumb" value="false" />
+</settings>
