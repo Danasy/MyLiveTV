@@ -16,7 +16,7 @@ except:
     import simplejson as json
 import SimpleDownloader as downloader
 
-addon = xbmcaddon.Addon('plugin.video.tiviviet')
+addon = xbmcaddon.Addon('plugin.video.mylivetv')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
